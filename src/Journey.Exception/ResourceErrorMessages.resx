@@ -121,9 +121,15 @@
     <value>The date of the trip must be later than today.</value>
   </data>
   <data name="END_DATE_TRIP_MUST_BE_LATER_START_DATE" xml:space="preserve">
-    <value />
+    <value>The end date of the trip must be later than the start date</value>
   </data>
   <data name="NAME_EMPTY" xml:space="preserve">
     <value>The name cannot be empty</value>
+  </data>
+  <data name="TRIP_NOT_FOUND" xml:space="preserve">
+    <value>Trip not found</value>
+  </data>
+  <data name="UNKNOWN_ERROR" xml:space="preserve">
+    <value>Unknown error</value>
   </data>
 </root>

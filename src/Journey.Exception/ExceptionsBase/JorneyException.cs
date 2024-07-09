@@ -1,6 +1,10 @@
-﻿namespace Journey.Exception.ExceptionsBase
+﻿using System.Net;
+
+namespace Journey.Exception.ExceptionsBase
 {
-    public class JorneyException(string message) : SystemException(message)
+    public abstract class JorneyException(string message) : SystemException(message)
     {
+        public abstract HttpStatusCode GetStatusCode();
+        public abstract IList<string> GetErrorMessages();
     }
 }
